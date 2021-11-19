@@ -1,0 +1,365 @@
+/* ---------------General Arrangements----------------- */
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+html,
+body{
+background-color: #fff;
+font-family: 'DM Sans', sans-serif;
+text-rendering: optimizeLegibility;
+}
+
+section{
+    padding: 0 12%;
+}
+
+/* ------------Reusable Components---------------------- */
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 14px 40px;
+  font-size: 17px;
+  font-weight: 300;
+  text-decoration: none;
+  border-top-right-radius: 18px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+
+.btn svg {
+    margin-left: 5px;
+}
+
+.primary-btn:link,
+.primary-btn:visited{
+  background-color: #FFAC12;
+  border: 1px solid #FFAC12;
+  color: #000;
+}
+
+.primary-btn svg {
+    fill: #ffffff;
+}
+
+.secondary-btn:link,
+.secondary-btn:visited {
+  background-color: #000000;  
+  border: 1px solid #e67e22;
+  color: #fff;
+}
+
+.secondary-btn svg {
+    fill: #FFAC12;
+}
+
+.tertiary-btn:link,
+.tertiary-btn:visited {
+  background-color: #fff;  
+  color: #000;
+}
+
+.tertiary-btn svg {
+    fill: #FFAC12;
+}
+
+
+
+
+
+/* -------------------Navigation-------------------- */
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bar{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.link-and-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link li{
+    display: inline-block;
+    margin-right: 60px;
+}
+.link li a:link
+.link li a:visited{
+    color: #fff;
+    text-decoration: none;
+    /* padding-bottom: 1px; */
+}
+
+
+.link li a:active,
+.link li a:hover{
+    color: #FFAC12;
+    padding-bottom: 1px;
+}
+
+
+a:link,
+a:visited{
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 1px;
+}
+a:hover,
+a:active{ 
+  color: #555;
+}
+
+/* ---------------Header------------------------ */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../assets/images/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: scroll;
+    padding: 0 12%;
+    display: flex;
+    flex-direction: column;
+   }
+
+.hero{
+    margin-top: 118px;
+    width: 519px;
+}
+
+   h1{
+       font-size: 80px;
+       color: #fff;
+       font-weight: bold;
+       line-height: 80px;
+   }
+
+.sub-text {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.see-listings{
+    height: 100px;
+    background-color: #fff;
+    margin-top: auto;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* ---------------SECTION 2------------------------ */
+.section-two{
+    padding-right: 12%;
+    background: white;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: -80px;
+    height: 666px;
+}
+
+
+.section2-texts {
+    margin-left: 60px;
+}
+
+.sub-text2 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.section2-action {
+    margin-top: 30px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+h2::before{
+    display: block;
+    height: 4px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    content: "";
+    width: 169px;
+    margin-bottom: 17px;
+}
+
+/* ---------------SECTION 3------------------------ */
+.section3{
+    background: #F5F5F5;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.search{
+    margin-top: 150px;
+}
+
+.search-box{
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    margin-top: 60px;
+    margin-bottom: 76px;
+    overflow: hidden
+}
+
+.search-input{
+    display: flex;
+    align-items: center;
+    background: white;
+    height: 120px;
+    border-right: 1px solid #E4E4E4;
+    flex: 1;  
+}
+
+.search-input:last-child{
+    border-right: none;
+}
+
+.btn-text{
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+.houses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.houses_card{
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:31%;
+    margin-bottom: 30px;
+    
+}
+
+.houses_card:last-child{
+}
+
+.houses_card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.houses_card-image {
+}
+
+.houses_card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-title_text{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 30px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.houses-amenities{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+
+.houses-amenities svg{
+    margin-right: 10px;
+}
+
+.houses_amenities-bed{
+     border-right: 1px solid#e4e4e4;
+     width: 33%;
+}
+
+.houses_amenities-bath{
+    border-right: 1px solid#e4e4e4;
+    width: 33%;
+}
+
+.houses_amenities-lights{
+    border-right: none;
+    width: 33%;
+}
+
+/* ---------------SECTION 4------------------------ */
+.section-four{
+    padding-left: 12%;
+    background: white ;
+}
+
+.section4{
+    display: flex;
+    align-items: center;
+}
+
+.section4-texts{
+    text-align: left;
+    margin-right: 60px;
+}
+
+.section4-img {
+    /* margin-bottom: 150px; */
+    margin-top: -80px;
+}
+
+
+.sub-text2 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.section2-action {
+    margin-top: 30px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+h2::before{
+    display: block;
+    height: 4px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    content: "";
+    width: 169px;
+    margin-bottom: 17px;
+}

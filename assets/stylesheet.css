@@ -49,7 +49,7 @@ section{
 .secondary-btn:link,
 .secondary-btn:visited {
   background-color: #000000;  
-  border: 1px solid #e67e22;
+  border: 1px solid #000000;
   color: #fff;
 }
 
@@ -218,7 +218,7 @@ h2::before{
 .section3{
     background: #F5F5F5;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 140px;
 }
 
 .search{
@@ -268,14 +268,8 @@ h2::before{
     
 }
 
-.houses_card:last-child{
-}
-
 .houses_card:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.houses_card-image {
 }
 
 .houses_card-image img {
@@ -295,6 +289,8 @@ h2::before{
     display: flex;
     flex-direction: row;
     height: 60px;
+    justify-content: center;
+    align-items: center;
 }
 
 .houses-amenities svg{
@@ -324,7 +320,8 @@ h2::before{
 
 .section4{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    margin-bottom: 150px;
 }
 
 .section4-texts{
@@ -362,4 +359,149 @@ h2::before{
     content: "";
     width: 169px;
     margin-bottom: 17px;
+}
+
+/* -------------SECTION5---------- */
+.section5{
+    background-color: black;
+    padding: 150px 296px;
+}
+
+.section-five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-five_texts{
+    text-align: center;
+    width: 50%;
+}
+
+.subhead-white{
+    color: white;
+}
+
+.sub-text3{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+/* --------------------SECTION6---------------- */
+.bold24{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    padding:120px 35% 60px 35% ;
+}
+
+.bold24::before{
+    display: block;
+    height: 4px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    content: "";
+    width: auto;
+    margin-bottom: 17px;
+}
+
+.client-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.clients{
+    display: flex;
+    flex-direction: row;
+    width: 336px;
+    height: 140px;
+}
+
+.mid{
+    background-color: black;
+}
+
+.clientelle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clientelle img{
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.bold15{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.regular15{
+    font-size: 15px;
+    font-weight: normal;
+    color: #979796;
+}
+
+.mid-text{
+    color: white;
+}
+
+/* ---------------FOOTER---------------- */
+footer{
+    background-color: black;
+}
+
+.footer-text{
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+
+.sub-head{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #979797;
+}
+
+.content{
+    margin-top: 60px;
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-social{
+    display: flex;
+    flex-direction: column;
+    margin-right: 270px;
+}
+.sm-icons{
+    margin-top: 30px;
+    /* display: flex; */
+}
+
+.sm-icons svg{
+    margin-right: 40px;
+}
+
+.mini-head{
+    color: white;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.linkies{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.content-info{
+    display: flex;
+    justify-content: space-between;
 }

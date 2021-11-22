@@ -16,6 +16,9 @@ text-rendering: optimizeLegibility;
 section{
     padding: 0 12%;
 }
+footer{
+    padding: 0 12%;
+}
 
 /* ------------Reusable Components---------------------- */
 
@@ -381,6 +384,9 @@ h2::before{
 .subhead-white{
     color: white;
 }
+.subhead-white::before{
+    margin: 0 auto;
+}
 
 .sub-text3{
     font-size: 20px;
@@ -479,7 +485,7 @@ footer{
 .logo-social{
     display: flex;
     flex-direction: column;
-    margin-right: 270px;
+    flex:1
 }
 .sm-icons{
     margin-top: 30px;
@@ -504,4 +510,10 @@ footer{
 .content-info{
     display: flex;
     justify-content: space-between;
+    flex:1
+}
+
+.info-texts{
+    display: flex;
+    flex-direction: column;
 }

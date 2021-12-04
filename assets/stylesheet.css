@@ -288,6 +288,16 @@ h2::before{
     border-bottom: 1px solid #E4E4E4;
 }
 
+.title-link:link,
+.title-link:visited{
+    color: #555;
+}
+
+.title-link:active,
+.title-link:hover{
+    color: #00000f;
+}
+
 .houses-amenities{
     display: flex;
     flex-direction: row;

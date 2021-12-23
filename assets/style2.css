@@ -230,6 +230,18 @@ a:active{
     padding-top: 60px;
 }
 
+.section-one{
+    display: flex;
+}
+
+.property-photos{
+    flex: 2;
+}
+
+.main{
+    width: 95%;
+}
+
 .more-photos{
     padding: 20px 0 40px 0;
     display: flex;
@@ -237,4 +249,90 @@ a:active{
 
 .more{
     margin-right: 24px;
+}
+
+.newsletter{
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 20px;
+    flex: 1;
+    height: 580px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+.profile-name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.reg15{
+    color: #000;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 18px;
+    margin-bottom: 2px;
+}
+
+.bold13{
+    color: #FFAC12;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 10px; 
+    border: 1px solid #ebebeb;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.form{
+     padding: 15px;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 10px; 
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 10px; 
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+}
+
+.bio{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 10px; 
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+    height: 100px;
 }

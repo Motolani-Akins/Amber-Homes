@@ -248,12 +248,24 @@ a:active{
 }
 
 .more{
-    margin-right: 24px;
+    margin-right: 20px;
+    width: 95px;
 }
+
+.no-right{
+    width: 95px;
+}
+
+/* -------------------------section2-------------------------------- */
+
+
+
+/* ---------------------News Letter---------------------------- */
 
 .newsletter{
     background-color: #fff;
     border-radius: 25px;
+    box-shadow: 5px 5px 10px #EBEBEB;
     padding: 20px;
     flex: 1;
     height: 580px;
@@ -277,7 +289,7 @@ a:active{
 .profile-name{
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .reg15{
@@ -295,44 +307,42 @@ a:active{
     line-height: 18px;
 }
 
-.name{
+.profile-data{
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+
+.profile-details{
     display: flex;
-    flex-direction: row;
-    background-color: #fff;
-    border-radius: 10px; 
-    border: 1px solid #ebebeb;
-    margin-top: 20px;
+    flex-direction: column;
+}
+
+.wight{
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #EBEBEB;
     margin-bottom: 10px;
 }
 
-.form{
-     padding: 15px;
-}
-
-.phone{
-    display: flex;
-    flex-direction: row;
-    background-color: #fff;
-    border-radius: 10px; 
-    border: 1px solid #ebebeb;
-    margin-bottom: 10px;
-}
-
-.email{
-    display: flex;
-    flex-direction: row;
-    background-color: #fff;
-    border-radius: 10px; 
-    border: 1px solid #ebebeb;
-    margin-bottom: 10px;
-}
-
-.bio{
-    display: flex;
-    flex-direction: row;
-    background-color: #fff;
-    border-radius: 10px; 
-    border: 1px solid #ebebeb;
-    margin-bottom: 10px;
+.profile-bio{
+    border-radius: 10px;
+    border-color: #EBEBEB;
     height: 100px;
+    padding-left: 20px;
+}
+
+.button:link,
+.button:visited {
+  display: inline-block;
+  padding: 24px 147px;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  border-top-right-radius: 18px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.button svg {
+    margin-left: 5px;
+    fill: #FFAC12;
 }

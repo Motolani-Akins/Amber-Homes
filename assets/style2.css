@@ -346,3 +346,16 @@ a:active{
     margin-left: 5px;
     fill: #FFAC12;
 }
+
+.detailed-info{
+    background-color: #fff;
+    border-radius: 25px;
+    width: 704px;
+    height: 147px;
+}
+
+.details{
+     color: #000;
+    border-bottom: 1px solid #E4E4E4;
+
+}
